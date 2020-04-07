@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'sinatra'
-require 'sinatra/namespace'
 require './lib/pr_hawk/constants'
 require './lib/pr_hawk/http_client'
 require './lib/pr_hawk/repository_resource'
@@ -13,8 +12,8 @@ end
 
 get '/user/:username' do
   repo_resource = PRHawk::RepositoryResource.new
-  repos = repo_resource.list_repos_for_user(params[:username], env[PRHawk::AUTH_HEADER_KEY])
 
+  repos = repo_resource.list_repos_for_user(params[:username], env[PRHawk::AUTH_HEADER_KEY])
   count_by_repo = repo_resource.get_open_pr_count(params[:username], env[PRHawk::AUTH_HEADER_KEY])
 
   @repositories =
