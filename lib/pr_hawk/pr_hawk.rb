@@ -10,11 +10,11 @@ before do
   halt 401 unless env[PRHawk::AUTH_HEADER_KEY]
 end
 
-get '/user/:username' do
+get '/user/:userId' do
   repo_resource = PRHawk::RepositoryResource.new
 
-  repos = repo_resource.list_repos_for_user(params[:username], env[PRHawk::AUTH_HEADER_KEY])
-  count_by_repo = repo_resource.get_open_pr_count(params[:username], env[PRHawk::AUTH_HEADER_KEY])
+  repos = repo_resource.list_repos_for_user(params[:userId], env[PRHawk::AUTH_HEADER_KEY])
+  count_by_repo = repo_resource.get_open_pr_count(params[:userId], env[PRHawk::AUTH_HEADER_KEY])
 
   @repositories =
     repos.map do |repo|
