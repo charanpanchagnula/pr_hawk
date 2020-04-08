@@ -1,0 +1,58 @@
+{
+  "total_count": 1,
+  "incomplete_results": false,
+  "items": [
+    {
+      "url": "https://api.github.com/repos/charanpanchagnula/hello-github-actions/issues/2",
+      "repository_url": "https://api.github.com/repos/charanpanchagnula/hello-github-actions",
+      "labels_url": "https://api.github.com/repos/charanpanchagnula/hello-github-actions/issues/2/labels{/name}",
+      "comments_url": "https://api.github.com/repos/charanpanchagnula/hello-github-actions/issues/2/comments",
+      "events_url": "https://api.github.com/repos/charanpanchagnula/hello-github-actions/issues/2/events",
+      "html_url": "https://github.com/charanpanchagnula/hello-github-actions/pull/2",
+      "id": 596261524,
+      "node_id": "MDExOlB1bGxSZXF1ZXN0NDAwNTkwOTY0",
+      "number": 2,
+      "title": "Create test",
+      "user": {
+        "login": "charanpanchagnula",
+        "id": 20506045,
+        "node_id": "MDQ6VXNlcjIwNTA2MDQ1",
+        "avatar_url": "https://avatars2.githubusercontent.com/u/20506045?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charanpanchagnula",
+        "html_url": "https://github.com/charanpanchagnula",
+        "followers_url": "https://api.github.com/users/charanpanchagnula/followers",
+        "following_url": "https://api.github.com/users/charanpanchagnula/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charanpanchagnula/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charanpanchagnula/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charanpanchagnula/subscriptions",
+        "organizations_url": "https://api.github.com/users/charanpanchagnula/orgs",
+        "repos_url": "https://api.github.com/users/charanpanchagnula/repos",
+        "events_url": "https://api.github.com/users/charanpanchagnula/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charanpanchagnula/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "assignees": [],
+      "milestone": null,
+      "comments": 1,
+      "created_at": "2020-04-08T02:18:38Z",
+      "updated_at": "2020-04-08T02:18:42Z",
+      "closed_at": null,
+      "author_association": "OWNER",
+      "draft": false,
+      "pull_request": {
+        "url": "https://api.github.com/repos/charanpanchagnula/hello-github-actions/pulls/2",
+        "html_url": "https://github.com/charanpanchagnula/hello-github-actions/pull/2",
+        "diff_url": "https://github.com/charanpanchagnula/hello-github-actions/pull/2.diff",
+        "patch_url": "https://github.com/charanpanchagnula/hello-github-actions/pull/2.patch"
+      },
+      "body": "",
+      "score": 1.0
+    }
+  ]
+}

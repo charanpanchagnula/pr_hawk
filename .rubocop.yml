@@ -1,0 +1,3 @@
+inherit_from: https://raw.githubusercontent.com/charanpanchagnula/pr_hawk/master/rubocop-core.yml
+AllCops:
+  TargetRubyVersion: 2.6
